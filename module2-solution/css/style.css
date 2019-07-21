@@ -12,12 +12,12 @@ section {
   background-color: grey;
   border: 1px solid black;
   margin-bottom: 30px;
-  height: 200px;
+  height: 220px;
 }
 
 p {
   width: 90%;
-  padding: 2px;
+  padding: 1px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
