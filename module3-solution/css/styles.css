@@ -1,0 +1,115 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 1px solid black;
+}
+
+.narbar-brand {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.navbar-brand h1 { /* Company name */
+	font-family: 'Lora', serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	color: black;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	text-align: center;
+}
+#nav-list a:hover {
+	background-color: red;
+}
+
+.navbar-header button.navnar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#our-menu {
+	margin-bottom: 40px;
+}
+
+#our-menu h2 {
+	font-weight: bold;
+}
+
+#our-menu p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.menu-title {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#menu-item div {
+	background-color: grey;
+	margin-bottom: 30px;
+}
+
+#menu-item div p {
+	margin-top: 10px;
+}
+/* END HOME PAGE */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 40px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 24px;
+  }
+
+  #nav-list {
+  	background-color: white;
+  }
+
+  #collapsable-nav li {
+  	border: 1px solid black;
+  	margin: 5px;
+  }
+
+  #collapsable-nav a:hover {
+  	background-color: grey;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: black;
+  }
+  /* End Header */
+
+  /* Home Page */
+  #menu-item {
+    width: auto;
+    margin: auto;
+  }
+  /* END HOME PAGE */
+}
